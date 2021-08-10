@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Hello World</string>
+    <string name="j_possui_uma_conta_clique_aqui">Já possui uma conta? Clique aqui!</string>
+    <string name="sou_cliente">Sou Cliente</string>
+    <string name="sou_vendedor">Sou Vendedor</string>
+    <string name="logo">logo</string>
 </resources>

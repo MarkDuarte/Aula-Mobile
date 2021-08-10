@@ -18,30 +18,33 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logotrabalho" />
+        app:srcCompat="@drawable/logotrabalho"
+        android:contentDescription="@string/logo" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/iAmClient"
         android:layout_width="249dp"
         android:layout_height="60dp"
         android:layout_marginStart="81dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="81dp"
         android:backgroundTint="#E94F37"
-        android:text="Sou Cliente"
+        android:text="@string/sou_cliente"
+        android:onClick="toRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/iAmSeller" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/iAmSeller"
         android:layout_width="249dp"
         android:layout_height="60dp"
         android:layout_marginTop="271dp"
         android:layout_marginBottom="24dp"
         android:backgroundTint="#44BBA4"
-        android:text="Sou Vendedor"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        android:text="@string/sou_vendedor"
+        android:onClick="toRegister"
+        app:layout_constraintBottom_toTopOf="@+id/iAmClient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -53,7 +56,7 @@
         android:layout_marginTop="140dp"
         android:autoText="false"
         android:backgroundTint="#000000"
-        android:text="Já possui uma conta? Clique aqui!"
+        android:text="@string/j_possui_uma_conta_clique_aqui"
         android:textColor="#000000"
         android:textColorHighlight="#000000"
         android:textColorLink="#000000"
@@ -61,7 +64,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/iAmClient"
+        tools:ignore="Deprecated,TextViewEdits" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -82,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="left"
-        app:constraint_referenced_ids="button7" />
+        app:constraint_referenced_ids="iAmClient" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
