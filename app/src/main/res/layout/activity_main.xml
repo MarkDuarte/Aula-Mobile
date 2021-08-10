@@ -30,7 +30,7 @@
         android:layout_marginEnd="81dp"
         android:backgroundTint="#E94F37"
         android:text="@string/sou_cliente"
-        android:onClick="toRegister"
+        android:onClick="toRegisterClient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iAmSeller" />
@@ -43,7 +43,7 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="#44BBA4"
         android:text="@string/sou_vendedor"
-        android:onClick="toRegister"
+        android:onClick="toRegisterSeller"
         app:layout_constraintBottom_toTopOf="@+id/iAmClient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,14 +1,11 @@
 package com.example.helloworld;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +16,12 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity","Inicia a Aplicação e mostra a Tela Inicial");
     }
 
-    public void toRegister(View view) {
-        Intent intent = new Intent(this, DisplayRegisterActivity.class);
+    public void toRegisterClient(View view) {
+        Intent intent = new Intent(this, DisplayRegisterClientActivity.class);
+        startActivity(intent);
+    }
+    public void toRegisterSeller(View view) {
+        Intent intent = new Intent(this, DisplayRegisterSellerActivity.class);
         startActivity(intent);
     }
 }
