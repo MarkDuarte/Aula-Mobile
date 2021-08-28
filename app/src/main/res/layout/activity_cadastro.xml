@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editTextTextPassword4"
+        android:id="@+id/passwordConfirm"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
@@ -26,7 +26,7 @@
         android:text="Confirmar Senha"
         android:textColor="#864B4B"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
         android:id="@+id/textView8"
@@ -37,9 +37,9 @@
         android:layout_marginBottom="8dp"
         android:text="Senha"
         android:textColor="#864B4B"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword3"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <TextView
         android:id="@+id/textView7"
@@ -50,7 +50,7 @@
         android:text="Email"
         android:textColor="#864B4B"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -63,7 +63,7 @@
         app:srcCompat="@drawable/logotrabalho" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/name"
         android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/password"
         android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
@@ -110,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registrate"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:backgroundTint="#44BBA4"
@@ -119,6 +119,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordConfirm" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

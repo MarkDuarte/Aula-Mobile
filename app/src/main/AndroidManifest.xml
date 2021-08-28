@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.helloworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
+        <activity
+            android:name=".Home.HomeActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator"/>
+        <activity
+            android:name=".common.feed.FeedActivity"
+            android:exported="true"
+            android:label="@string/title_activity_feed"
+            android:theme="@style/Theme.HelloWorld.NoActionBar" />
         <activity
             android:name=".perfil"
             android:exported="true" />
@@ -19,6 +31,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".login.SellerRegisterActivity" />
+        <activity android:name=".login.ClientRegisterActivity" />
+        <activity android:name=".login.LoginActivity" />
     </application>
 
 </manifest>

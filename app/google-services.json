@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877732125674",
+    "project_id": "socialshop-4ca9e",
+    "storage_bucket": "socialshop-4ca9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877732125674:android:aa5646a7bad75316cdb093",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877732125674-d5o7pv2hcvsdkd6hapnrm934vl3kn913.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF5a121G_Zd554bqBAENmouh1Qva1_JUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877732125674-d5o7pv2hcvsdkd6hapnrm934vl3kn913.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

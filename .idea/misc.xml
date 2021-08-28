@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/icon1.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/drawable/icon2.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/icon3.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/drawable/user.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.23125836680053546" />
+        <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.22540983606557377" />
         <entry key="app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_index.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.29891304347826086" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.2246376811594203" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.2441123188405797" />
+        <entry key="app/src/main/res/layout/snippet_top_home_tabbar.xml" value="0.29891304347826086" />
+        <entry key="app/src/main/res/menu/menu_feed.xml" value="0.33" />
       </map>
     </option>
   </component>
